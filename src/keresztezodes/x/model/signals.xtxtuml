@@ -1,0 +1,5 @@
+package keresztezodes.x.model;
+
+signal Lepes;
+
+signal Valt;

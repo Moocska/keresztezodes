@@ -1,0 +1,14 @@
+package keresztezodes.x.model;
+
+import keresztezodes.x.model.aLampa;
+import keresztezodes.x.model.gyLampa;
+
+association KeresztA {
+	1 keresztezodes k;
+	1 aLampa a;
+}
+
+association KeresztGy {
+	1 keresztezodes k;
+	1 gyLampa gy;
+}
