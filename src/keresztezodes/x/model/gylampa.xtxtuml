@@ -4,11 +4,11 @@ class gyLampa {
 	
 	initial Init;
 
-	state Piros;
+	state Zold;
 
 	state ZVillog;
 
-	state Zold;
+	state Piros;
 
 
 	transition Initialize {
