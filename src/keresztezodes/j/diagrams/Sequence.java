@@ -4,13 +4,14 @@ import static hu.elte.txtuml.api.model.seqdiag.Sequence.assertState;
 import static hu.elte.txtuml.api.model.seqdiag.Sequence.fromActor;
 //import static hu.elte.txtuml.api.model.seqdiag.Sequence.send;
 
+import keresztezodes.x.model.aLampa;
 import keresztezodes.x.model.gyLampa;
 import keresztezodes.x.model.keresztezodes;
 import keresztezodes.x.model.KeresztA;
 import keresztezodes.x.model.KeresztGy;
 //import keresztezodes.x.model.Lepes;
 import keresztezodes.x.model.Valt;
-import keresztezodes.x.model.aLampa;
+
 import hu.elte.txtuml.api.model.Action;
 import hu.elte.txtuml.api.model.seqdiag.ExecMode;
 import hu.elte.txtuml.api.model.seqdiag.ExecutionMode;
@@ -67,10 +68,10 @@ public class Sequence extends SequenceDiagram {
 		fromActor(new Valt(), k);
 		assertState(k, keresztezodes.AutokL.class);
 		/*assertState(gy, gyLampa.Piros.class);
-		assertState(a, aLampa.Sarga.class);
+		assertState(a, aLampa.Sarga.class);*/
 		fromActor(new Valt(), k);
 		assertState(k, keresztezodes.GyalogM.class);
-		assertState(gy, gyLampa.Zold.class);
+		/*assertState(gy, gyLampa.Zold.class);
 		assertState(a, aLampa.Piros.class);*/
 	}
 }
