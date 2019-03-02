@@ -2,16 +2,15 @@ package keresztezodes.x.model;
 
 class keresztezodes {
 	
-	initial Init;
+	initial Init;	
+	
+	state GyalogM; //gyalogosok indulnak
 
 	state AutokV; //autok varnak/keszulnek az indulasra
 	
 	state AutokM; //autok mennek
 	
 	state AutokL; //autok lassitanak
-
-	state GyalogM; //gyalogosok indulnak
-	
 	
 	transition Initialize {
 		from Init;
