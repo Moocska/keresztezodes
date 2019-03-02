@@ -1,8 +1,8 @@
 package keresztezodes.j.diagrams;
 
 import keresztezodes.x.model.keresztezodes;
-import keresztezodes.x.model.gyLampa;
 import keresztezodes.x.model.aLampa;
+import keresztezodes.x.model.gyLampa;
 
 import hu.elte.txtuml.api.layout.ClassDiagram;
 import hu.elte.txtuml.api.layout.Right;
