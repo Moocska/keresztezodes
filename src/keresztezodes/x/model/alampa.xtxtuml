@@ -6,11 +6,11 @@ class aLampa {
 
 	state Piros;
 
-	state Sarga;
-
 	state PirosSarga;
 
 	state Zold;
+
+	state Sarga;
 
 
 	transition Initialize {
